@@ -1,0 +1,116 @@
+@import url("normalize.css");
+
+body, html{
+	background: #EEE;
+	font-family: helvetica, arial;
+	font-size: 16px;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+#cabecera, #contenido{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+}
+
+#cabecera, #contenido, #precarga, #respuesta, .tabla td, .tabla th{
+	padding: 1em;
+}
+
+#contenido{
+	background: white;
+	width: 75%;
+}
+
+#insertar{
+	color: #292623;
+	font-size: 1.5em;
+}
+
+#insertar:hover{
+	color:#EC673A;
+}
+
+#precarga, #respuesta{
+	display: none;
+}
+
+.error, .exito{
+	background: red;
+	color: white;
+	padding: 1em;
+}
+
+.exito{
+	background: green;
+}
+
+.formulario, .tabla p{
+	text-align: left;
+}
+
+.formulario div{
+	margin: 1em auto;
+}
+
+.formulario legend{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.paginacion a, .actual{
+	color: #EC673A;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding: 0 0.5rem;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.paginacion a:hover, .actual{
+	color: #1C5F81;
+}
+
+.actual{
+	font-size: 3rem;
+}
+
+.tabla{
+	margin: auto;
+	width: 100%;
+}
+
+.tabla a{
+	color: #EEE;
+}
+
+.tabla a:hover{
+	color: #292623;
+}
+
+.tabla img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.tabla td{
+	vertical-align: top;
+}
+
+.tabla th{
+	background: #292623;
+	color: #EEE;
+}
+
+.tabla tr:nth-child(odd){
+	background: #EC673A;
+}
+
+.tabla tr:nth-child(even){
+	background: #1C5F81;
+}
+
