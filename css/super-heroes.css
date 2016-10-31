@@ -7,6 +7,10 @@ body, html{
 	text-align: center;
 }
 
+h1:hover{
+	color:blue;
+}
+
 img{
 	max-width: 100%;
 }
